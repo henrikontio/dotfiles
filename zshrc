@@ -102,10 +102,10 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 
 ## Launch visual studio code with code command
-code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
+# code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 
 ## Source DNVM
-source dnvm.sh
+# source dnvm.sh
 
 # Mercurial info
 function hg_prompt_info {
