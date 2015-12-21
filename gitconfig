@@ -1,0 +1,12 @@
+[user]
+	name = Henri Kontio
+	email = Henri.Kontio@solita.fi
+[core]
+	excludesfile = /Users/henriko/.gitignore_global
+[credential]
+	helper = osxkeychain
+[push]
+	default = simple
+[alias]
+	incoming = !git fetch && git log ..@{u}
+	outgoing = !git fetch && git log @{u}..
