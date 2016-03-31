@@ -10,3 +10,7 @@
 [alias]
 	incoming = !git fetch && git log ..@{u}
 	outgoing = !git fetch && git log @{u}..
+	co = checkout
+	ci = commit
+	cob = checkout -b
+	cm = !git add -A && git commit -m	
