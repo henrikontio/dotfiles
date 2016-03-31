@@ -1,0 +1,15 @@
+[ui]
+username = Henri Kontio <henri.kontio@solita.fi>
+merge = internal:merge
+
+[extensions]
+shelve =
+prompt = ~/Documents/hg-extensions/hg-prompt/prompt.py
+
+# hgext.extdiff =
+#
+# [extdiff]
+# cmd.kdiff3 =
+#
+# [merge-tools]
+# kdiff3.args = $base $local $other -o $output
